@@ -1,0 +1,51 @@
+# 🚀 Nie wieder Stress beim CouchDB-Import: CSV & JSON in Sekunden laden
+
+*"Nur mal kurz ein paar Testdaten importieren..."* – jeder Entwickler kennt diesen Satz. Und jeder weiß, dass daraus oft eine Stunde Frust wird: Kaputte JSON-Formate, Encoding-Fehler in CSVs oder endlose `curl`-Befehle, die man sich nie merken kann.
+
+Wir – das **Team Wanju & KI Gemini** – hatten genug davon. Deshalb haben wir ein Tool gebaut, das einfach funktioniert.
+
+## Das Problem
+
+CouchDB ist großartig, aber Daten hineinzubekommen, kann nervig sein.
+*   **Fauxton** (das Web-UI) ist okay für einzelne Dokumente, aber mühsam für Massen-Uploads.
+*   **Curl** ist mächtig, aber wehe, du vergisst ein Anführungszeichen unter Windows.
+*   **Eigene Skripte** schreibt man jedes Mal neu, und sie brechen beim ersten Sonderzeichen.
+
+## Die Lösung: CouchDB-Importer
+
+Unser [CouchDB-Importer](https://github.com/wanjus/couchdb-importer) ist ein "Schweizer Taschenmesser" für den Datenimport, geschrieben in Python. Es ist pragmatisch, robust und Open Source.
+
+### Was kann es?
+
+1.  **CSV & JSON Support:** Egal ob Excel-Export oder API-Dump, das Tool frisst beides.
+2.  **Intelligent:** JSON-Liste? `docs`-Wrapper? Einzelnes Objekt? Das Skript erkennt das Format automatisch.
+3.  **Auto-DB:** Wenn die Zieldatenbank nicht existiert, wird sie einfach erstellt. Kein manuelles `PUT` mehr nötig.
+4.  **Fehlertolerant:** Einfache Strings in einer Liste werden automatisch in Objekte verpackt, damit CouchDB sie akzeptiert.
+5.  **Feedback:** Ein sauberer Fortschrittsbalken zeigt dir, was passiert.
+
+## Schnellstart
+
+Du brauchst nur Python.
+
+```bash
+# 1. Repo klonen
+git clone https://github.com/wanjus/couchdb-importer.git
+cd couchdb-importer
+
+# 2. Abhängigkeiten installieren
+pip install -r requirements.txt
+
+# 3. Daten importieren (Beispiel)
+python CouchDB‑Importer.py --file meine_daten.csv --db testdb --user admin --password secret
+```
+
+Das war's. Deine Daten sind drin.
+
+## Mach mit!
+
+Das Projekt ist **Open Source (MIT Lizenz)**. Wir freuen uns über Sterne auf GitHub, Issues oder Pull Requests.
+
+👉 **[Zum GitHub Repository](https://github.com/wanjus/couchdb-importer)**
+
+---
+*Entwickelt mit ❤️ und Python von Jürgen (Wanju) und Gemini.*
