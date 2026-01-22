@@ -9,6 +9,8 @@ Ein vielseitiges Python-Skript für den einfachen Import von CSV- und JSON-Daten
 *   **Fehlertoleranz**: Automatisches Verpacken von einfachen Datentypen (Strings/Zahlen) in Objekte.
 *   **Auto-DB-Erstellung**: Erstellt die Zieldatenbank automatisch, falls sie noch nicht existiert. 🚀
 
+![Demo des CouchDB Importers](demo_screenshot.png)
+
 ## Installation
 
 ```bash
