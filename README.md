@@ -49,3 +49,11 @@ python CouchDB‑Importer.py --file test.csv --db test --user admin --password a
 ```bash
 python CouchDB‑Importer.py --file daten.csv --db meine_db --id-column kunden_nr
 ```
+
+## Credits
+
+Entwickelt von **Team Wanju & KI Gemini**.
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT Lizenz veröffentlicht. Siehe [LICENSE](LICENSE) für Details.

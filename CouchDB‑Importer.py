@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
- * author Saquib Shaikh
- * created on 20-01-2026-20h-23m
- * github: https://github.com/saquibshaikh14
- * copyright 2026
+ * author: Team Wanju & KI Gemini
+ * created: 22-01-2026
+ * copyright: 2026
 """
 
 import csv
