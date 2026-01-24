@@ -1,0 +1,4 @@
+title: "CouchDB Importer"
+description: "Ein kleines Tool zum Import von CSV/JSON nach CouchDB"
+theme: jekyll-theme-minimal
+markdown: kramdown
