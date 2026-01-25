@@ -1,15 +1,15 @@
 # CouchDB-Importer
 
-Ein vielseitiges Python-Skript für den einfachen Import von CSV- und JSON-Daten in eine CouchDB.
+A versatile Python script for easily importing CSV and JSON data into CouchDB.
 
 ## Features
 
-*   **CSV-Support**: Mit Spaltenvalidierung und Fortschrittsanzeige.
-*   **JSON-Support**: Unterstützt verschiedene Strukturen (CouchDB-Standard `{"docs": [...]}` oder einfache Listen).
-*   **Fehlertoleranz**: Automatisches Verpacken von einfachen Datentypen (Strings/Zahlen) in Objekte.
-*   **Auto-DB-Erstellung**: Erstellt die Zieldatenbank automatisch, falls sie noch nicht existiert. 🚀
+*   **CSV Support**: Includes column validation and a progress indicator.
+*   **JSON Support**: Supports various structures (CouchDB standard `{"docs": [...]}` or simple lists).
+*   **Fault Tolerant**: Automatically wraps simple data types (strings/numbers) into objects.
+*   **Auto-DB Creation**: Automatically creates the target database if it doesn't already exist. 🚀
 
-![Demo des CouchDB Importers](demo_screenshot.png)
+![CouchDB Importer Demo](demo_screenshot.png)
 
 ## Installation
 
@@ -19,43 +19,43 @@ cd couchdb-importer
 pip install -r requirements.txt
 ```
 
-## Nutzung
+## Usage
 
-Das Skript wird über die Kommandozeile gesteuert:
+The script is controlled via the command line:
 
 ```bash
-python CouchDB‑Importer.py --file <DATEIPFAD> --db <DATENBANKNAME> [OPTIONEN]
+python CouchDB-Importer.py --file <FILEPATH> --db <DB_NAME> [OPTIONS]
 ```
 
-### Parameter:
-*   `--file`: Pfad zur Quelldatei (`.csv` oder `.json`). **(Erforderlich)**
-*   `--db`: Name der Ziel-Datenbank. **(Erforderlich)**
-*   `--url`: CouchDB-URL (Standard: `http://localhost:5984`).
-*   `--user`: CouchDB-Benutzername.
-*   `--password`: CouchDB-Passwort.
-*   `--id-column`: Spalte oder Feldname, der als Dokument-ID (`_id`) verwendet werden soll.
+### Parameters:
+*   `--file`: Path to the source file (`.csv` or `.json`). **(Required)**
+*   `--db`: Name of the target database. **(Required)**
+*   `--url`: CouchDB URL (Default: `http://localhost:5984`).
+*   `--user`: CouchDB username.
+*   `--password`: CouchDB password.
+*   `--id-column`: Column or field name to be used as the document ID (`_id`).
 
-## Beispiele
+## Examples
 
-### Import einer JSON-Datei:
+### Importing a JSON file:
 ```bash
-python CouchDB‑Importer.py --file test.json --db test --user admin --password admin
+python CouchDB-Importer.py --file test.json --db test --user admin --password admin
 ```
 
-### Import einer CSV-Datei:
+### Importing a CSV file:
 ```bash
-python CouchDB‑Importer.py --file test.csv --db test --user admin --password admin
+python CouchDB-Importer.py --file test.csv --db test --user admin --password admin
 ```
 
-### Mit spezifischer ID-Spalte:
+### With a specific ID column:
 ```bash
-python CouchDB‑Importer.py --file daten.csv --db meine_db --id-column kunden_nr
+python CouchDB-Importer.py --file data.csv --db my_db --id-column customer_id
 ```
 
 ## Credits
 
-Entwickelt von **Team Wanju & KI Gemini**.
+Developed by **Team Wanju & KI Gemini**.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der MIT Lizenz veröffentlicht. Siehe [LICENSE](LICENSE) für Details.
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.

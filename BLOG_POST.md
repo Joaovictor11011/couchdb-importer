@@ -36,7 +36,7 @@ cd couchdb-importer
 pip install -r requirements.txt
 
 # 3. Daten importieren (Beispiel)
-python CouchDB‑Importer.py --file meine_daten.csv --db testdb --user admin --password secret
+python CouchDB-Importer.py --file meine_daten.csv --db testdb --user admin --password secret
 ```
 
 Das war's. Deine Daten sind drin.
